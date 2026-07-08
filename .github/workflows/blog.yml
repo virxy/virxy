@@ -1,0 +1,46 @@
+name: Update blog posts
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [new-post]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: 'virxy', repo: 'blog', state: 'open',
+              sort: 'created', direction: 'desc', per_page: 5,
+            });
+            const posts = issues.filter(i => !i.pull_request);
+            const list = posts.length
+              ? posts.map(i => {
+                  const d = new Date(i.created_at).toISOString().slice(0, 10);
+                  return `- [${i.title}](${i.html_url}) &nbsp;·&nbsp; <sub>${d}</sub>`;
+                }).join('\n')
+              : '_敬请期待…_';
+            let r = fs.readFileSync('README.md', 'utf8');
+            r = r.replace(
+              /<!-- BLOG:START -->[\s\S]*?<!-- BLOG:END -->/,
+              `<!-- BLOG:START -->\n${list}\n<!-- BLOG:END -->`
+            );
+            fs.writeFileSync('README.md', r);
+
+      - run: |
+          git config user.name "virxy"
+          git config user.email "36910218+virxy@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: sync latest blog posts"
+          git push
