@@ -1,52 +1,57 @@
-<!-- ╔══════════════════════════════ HEADER ══════════════════════════════╗ -->
+<!-- ══════════════════════ CYBERPUNK HEADER ══════════════════════ -->
 <a href="https://github.com/virxy">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=200&section=header&text=virxy&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,50:9D00FF,100:FF2E97&height=220&section=header&text=%3C%20virxy%20%2F%3E&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=//%20BACKEND%20SYSTEMS%20ONLINE&descAlignY=56&descSize=16&descColor=00E5FF" alt="header" />
 </a>
 
 <p align="center">
-  <a href="https://github.com/virxy">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8B7CF6&center=true&vCenter=true&width=520&lines=Backend+Engineer;Go+%C2%B7+PHP+%C2%B7+Rust+%C2%B7+TypeScript;%E6%9C%8D%E5%8A%A1%E7%AB%AF+%C2%B7+%E5%88%86%E5%B8%83%E5%BC%8F+%C2%B7+%E9%AB%98%E5%B9%B6%E5%8F%91" alt="typing" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com/?font=Orbitron&weight=700&size=24&duration=2800&pause=700&color=FF2E97&center=true&vCenter=true&width=620&lines=%3E+BACKEND+ENGINEER;%3E+Go+//+PHP+//+Rust+//+TypeScript;%3E+%E6%9C%8D%E5%8A%A1%E7%AB%AF+//+%E5%88%86%E5%B8%83%E5%BC%8F+//+%E9%AB%98%E5%B9%B6%E5%8F%91" alt="typing" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=virxy&label=Views&color=8B7CF6&style=flat-square" alt="views" />
-  <img src="https://img.shields.io/github/followers/virxy?label=Followers&style=flat-square&color=8B7CF6&labelColor=1a1b27" alt="followers" />
+  <img src="https://komarev.com/ghpvc/?username=virxy&label=VISITORS&color=ff2e97&style=for-the-badge" alt="views" />
+  <img src="https://img.shields.io/github/followers/virxy?label=FOLLOWERS&style=for-the-badge&color=00e5ff&labelColor=0d0221" alt="followers" />
 </p>
 
-<!-- ╔══════════════════════════════ STACK ═══════════════════════════════╗ -->
-<h3 align="center">🛠️ Tech Stack</h3>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00E5FF,100:FF2E97&height=2" alt="line" />
+
+<!-- ══════════════════════ TECH STACK ══════════════════════ -->
+<h3 align="center">⟪ ⚡ TECH_STACK ⟫</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=go,php,rust,ts,laravel,nodejs,mysql,redis,docker,kubernetes,aws,linux&theme=dark&perline=12" alt="stack" />
 </p>
 
-<!-- ╔══════════════════════════════ SNAKE ═══════════════════════════════╗ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2E97,100:9D00FF&height=2" alt="line" />
+
+<!-- ══════════════════════ SNAKE ══════════════════════ -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/virxy/virxy/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/virxy/virxy/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/virxy/virxy/output/github-contribution-grid-snake.svg" width="100%" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/virxy/virxy/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </picture>
 
-<!-- ╔══════════════════════════════ STATS ═══════════════════════════════╗ -->
-<h3 align="center">📊 GitHub Stats</h3>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:9D00FF,100:00E5FF&height=2" alt="line" />
+
+<!-- ══════════════════════ STATS ══════════════════════ -->
+<h3 align="center">⟪ 📊 SYSTEM_STATS ⟫</h3>
 <p align="center">
-  <img height="165" src="https://github-readme-stats-mocha-ten-16.vercel.app/api?username=virxy&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&title_color=8B7CF6&icon_color=8B7CF6" alt="stats" />
-  <img height="165" src="https://github-readme-stats-mocha-ten-16.vercel.app/api/top-langs/?username=virxy&layout=compact&hide_border=true&theme=tokyonight&title_color=8B7CF6&langs_count=8" alt="langs" />
+  <img height="165" src="https://github-readme-stats-mocha-ten-16.vercel.app/api?username=virxy&show_icons=true&count_private=true&border_color=FF2E97&title_color=00E5FF&text_color=c9d1d9&icon_color=FF2E97&bg_color=0D0221" alt="stats" />
+  <img height="165" src="https://github-readme-stats-mocha-ten-16.vercel.app/api/top-langs/?username=virxy&layout=compact&langs_count=8&border_color=FF2E97&title_color=00E5FF&text_color=c9d1d9&bg_color=0D0221" alt="langs" />
 </p>
 <p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=virxy&theme=tokyo-night&hide_border=true&area=true&color=8B7CF6&line=8B7CF6&point=ffffff" alt="activity" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=virxy&bg_color=0D0221&color=00E5FF&line=FF2E97&point=ffffff&area=true&area_color=9D00FF&title_color=00E5FF&hide_border=true" alt="activity" />
 </p>
 
-<!-- ╔══════════════════════════════ NOW ═════════════════════════════════╗ -->
-<h3 align="center">🚀 Currently</h3>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00E5FF,100:FF2E97&height=2" alt="line" />
+
+<!-- ══════════════════════ CURRENTLY ══════════════════════ -->
+<h3 align="center">⟪ 🚀 RUNNING_NOW ⟫</h3>
 <p align="center">
-  🔭 服务端开发 · 分布式后端系统 &nbsp;·&nbsp; 🌱 Rust / 云原生 / 系统设计 &nbsp;·&nbsp; 💬 Go · PHP · 后端架构
+  <code>🔭 服务端开发 · 分布式后端系统</code> &nbsp; <code>🌱 Rust · 云原生 · 系统设计</code> &nbsp; <code>💬 Go · PHP · 后端架构</code>
 </p>
 
 <!--
-  联系方式(取消注释并填入,然后 git commit + push):
+  联系方式(取消注释并填入,git commit + push):
   📫 Email : your@email.com
   🌐 Blog  : https://your-blog.com
 -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=100&section=footer" alt="footer" width="100%" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2E97,50:9D00FF,100:00E5FF&height=120&section=footer&animation=twinkling" alt="footer" />
