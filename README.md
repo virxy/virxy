@@ -10,7 +10,7 @@
 ### 📝 最新文章
 
 <!-- BLOG:START -->
-_敬请期待…_
+- [👋 博客开张：用 GitHub Issues 写作](https://github.com/virxy/blog/issues/1) &nbsp;·&nbsp; <sub>2026-07-08</sub>
 <!-- BLOG:END -->
 
 <sub>文章即 Issue → 全部见 [virxy/blog](https://github.com/virxy/blog/issues)</sub>
